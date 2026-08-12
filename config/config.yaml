@@ -1,0 +1,16 @@
+env: qa
+
+environments:
+  qa:
+    base_url: "https://core-dev.mma.com/core_v2/ui/"
+
+  prod:
+    base_url: "https://core.mma.com/core/ui/"
+
+browser: "chromium"
+headless: false
+
+timeouts:
+  page_load: 90000
+  action_timeout: 20000
+  

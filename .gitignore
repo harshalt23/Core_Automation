@@ -1,0 +1,26 @@
+__pycache__/
+.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Reports
+reports/
+allure-results/
+allure-report/
+
+# Browser data
+edge_profile/
+edge_profile_master/
+
+# OS
+.DS_Store
+Thumbs.db
